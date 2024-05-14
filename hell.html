@@ -1,0 +1,27 @@
+<!doctype html>
+<html onclick="playAudio()">
+
+<head>
+    <title>HELL</title>
+    <meta name="HELL" content="ETERNAL PAIN">
+    <link rel="stylesheet" href="css/hell.css">
+    <script src="js/hell.js"></script>
+</head>
+
+<body onload="onLoad()">
+    <audio autoplay="autoplay" id="hellAudio" src="audio/hellAudio.mp3" type="audio/mpeg"></audio>
+
+    <script>
+        var interacted = false;
+        function playAudio() {
+            if (!interacted) {
+                document.getElementById("hellAudio").play();
+                interacted = true;
+            }
+        }
+    </script>
+
+    <img src="img/hellText.gif" alt="">
+</body>
+
+</html>

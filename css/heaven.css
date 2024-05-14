@@ -1,0 +1,18 @@
+html {
+    height: auto;
+    width: auto;
+}
+
+body {
+    background-image: url("../img/heaven.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #FFFFFF;
+}
+
+img {
+    width: 50%;
+    position: absolute;
+    left: 25%;
+}

@@ -1,0 +1,26 @@
+<!doctype html>
+<html onclick="playAudio()">
+
+<head>
+    <title>HEAVEN</title>
+    <meta name="HEAVEN" content="ETERNAL JOY">
+    <link rel="stylesheet" href="css/heaven.css">
+</head>
+
+<body>
+    <audio autoplay="autoplay" id="heavenAudio" src="audio/heavenAudio.mp3" type="audio/mpeg"></audio>
+
+    <script>
+        var interacted = false;
+        function playAudio() {
+            if (!interacted) {
+                document.getElementById("heavenAudio").play();
+                interacted = true;
+            }
+        }
+    </script>
+
+    <img src="img/heavenText.gif" alt="">
+</body>
+
+</html>
