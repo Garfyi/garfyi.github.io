@@ -4,7 +4,7 @@ var amountOfPet = 0;
 
 function onLoad() {
     purrAudio = document.getElementById("purrAudio");
-    const timeoutId = setTimeout(() => { window.location.replace("hell.html") }, 12000);
+    setTimeout(() => { window.location.replace("hell.html") }, 12000);
 }
 
 function petCat() {
