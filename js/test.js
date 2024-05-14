@@ -4,13 +4,13 @@ var amountOfPet = 0;
 
 function onLoad() {
     purrAudio = document.getElementById("purrAudio");
-    setTimeout(() => { window.location.replace("hell.html") }, 12000);
+    const timeoutId = setTimeout(() => { window.location.replace("hell.html") }, 12000);
 }
 
 function petCat() {
     if (canPet) {
         if (amountOfPet > 2) {
-            window.location.assign("heaven.html")
+            window.location.replace("heaven.html")
         }
 
         purrAudio.play();
